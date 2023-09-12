@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TheatreWorkComponent } from './theatre-work/theatre-work.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { CarouselComponent } from './carousel/carousel.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     NgbModule
   ],
   providers: [],
