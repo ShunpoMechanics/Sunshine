@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Slide } from '../carousel/slide';
 
 @Component({
   selector: 'app-theatre-work',
@@ -6,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./theatre-work.component.css']
 })
 export class TheatreWorkComponent implements OnInit {
-
+  public slides: Slide[] = [
+    {url: "https://placehold.co/600x400/orange/white", alt: "First Slide", text: "At this event I did X" },
+    {url: "https://placehold.co/600x400/red/black", alt: "Second Slide", text: "At this event I did Y" },
+    {url: "https://placehold.co/600x400/000000/AAA", alt:"Third Image", text: "At this event I did Z" }];
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -1,14 +1,18 @@
 
-<div id="carousel">
-    <div class="carousel-inner">
-        <div *ngFor="let img of images; let i = index" [ngClass]="i == 0 ? 'carousel-item-active' : 'carousel-item'" [id]="'img-' + i">
-            <img class="d-block w-100" [src]="img.url" [alt]="img.alt">
+<div id="container">
+        <div class="row" style="height: 400px">
+        <div class="carousel-button col-md-1" id="right" (click)="nextImage('backwards')">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>    
+        <div class="col-md-10">
+            <img *ngFor="let slide of slides; let i = index" class="carousel-img" [id]="'img-'+i" [src]="slide.url" [alt]="slide.alt" 
+                [ngClass]="i == 0 ? 'active' : 'hidden'" [ngStyle]="{'margin-top':i*-21 + 'px'}">
+        </div>
+        <div class="carousel-button  col-md-1" (click)="nextImage('forward')">      
+            <i class="fa-solid fa-angle-right"></i>
         </div>
     </div>
-    <button type="button" (click)="previousImage()">
-        <i class="fa-solid fa-angle-left"></i>
-    </button>
-    <button type="button" (click)="nextImage()">      
-        <i class="fa-solid fa-angle-right"></i>
-    </button>
+    <div class="row">
+        <p id="carousel-text">{{this.activeSlide?.text}}</p>
+    </div>
 </div>

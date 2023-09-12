@@ -1,52 +1,57 @@
-import { Component, OnInit } from '@angular/core';
-import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
-import * as $ from "jquery";
+import { Component, Input, OnInit } from '@angular/core';
+import { Slide } from './slide';
 
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.css'],
-  providers: [NgbCarouselConfig]
+  template: ``
 })
 export class CarouselComponent implements OnInit {
+@Input() slides!: Slide[];
 
-  public images = [
-    {url: "https://i.imgur.com/HkJqIE9_d.webp?maxwidth=520&shape=thumb&fidelity=high", alt: "First Slide" },
-{url: "https://i.imgur.com/HkJqIE9_d.webp?maxwidth=520&shape=thumb&fidelity=high", alt: "Second Slide" },
-{url: "https://i.imgur.com/HkJqIE9_d.webp?maxwidth=520&shape=thumb&fidelity=high", alt:"Third Image"}];
+  activeSlide: Slide|null= null;
+  private count: number = 0;
 
-  slideIndex = 1; 
-
-  constructor(config: NgbCarouselConfig) {
-    config.interval = 2000;
-    config.keyboard = true;
-    config.pauseOnHover = true;
+  constructor() {
+    
   }
 
   ngOnInit(): void {
+    this.activeSlide = this.slides[0];
   }
 
-  public previousImage()
-  {
-    var active = document.querySelector('.carousel-item-active');
+  public nextImage(direction: string) {
+    var active = document.querySelector('.active');
+    var nextId: number;    
+    var next: Element|null;
     if(active != null)
     {
-      active?.classList.remove('carousel-item-active');
-      active?.classList.add('carousel-item');
-      var activeId = active.id.substring(4);
-      var prevId = parseInt(activeId) - 1;
-      if(prevId == -1)
-        prevId = this.images.length - 1;
-      var previous = document.querySelector(`#img-${prevId}`);
-      if(previous != null)
+      active?.classList.remove('active');
+      active?.classList.add('hidden');
+      var activeId = parseInt(active.id.substring(4));
+
+      if(direction == "forward")
       {
-        previous?.classList.add('carousel-item-active');
-        previous?.classList.remove('carousel-item');
+        nextId = activeId + 1;
+        if(nextId == this.slides.length)
+          nextId = 0;
+        next = document.querySelector(`#img-${nextId}`);
+        console.log(nextId);
+      }
+      else
+      {
+        nextId = activeId - 1;
+        if(nextId == -1)
+        nextId = this.slides.length - 1;
+        next = document.querySelector(`#img-${nextId}`);
+      }
+      if(next != null)
+      {
+        next?.classList.add('active');
+        next?.classList.remove('hidden');
+        this.activeSlide = this.slides[nextId];
       }
     }
-  }
-
-  public nextImage() {
-
   }
 }
