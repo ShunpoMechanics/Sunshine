@@ -1,0 +1,25 @@
+.form-field label {
+    width: 100%;
+}
+
+.row {
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    border-radius: 6px;
+    width: 100%;
+}
+
+input {
+    border: 1px solid black;
+}
+
+.contact-form {
+    width: 66%;
+    margin: auto;
+}
+
+.contact-blurb {
+    
+}
