@@ -9,6 +9,7 @@ import { Slide } from './slide';
 })
 export class CarouselComponent implements OnInit {
 @Input() slides!: Slide[];
+@Input() height!: number;
 
   activeSlide: Slide|null= null;
   private count: number = 0;
