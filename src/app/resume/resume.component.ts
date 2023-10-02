@@ -4,14 +4,7 @@ import PSPDFKit from 'pspdfkit';
 @Component({
   selector: 'app-resume',
   templateUrl: './resume.component.html',
-  styleUrls: ['./resume.component.css'],
-  template: `
-  <pdf-viewer [src]="pdfSrc"
-              [render-text]="true"
-              [original-size]="false"
-              style="width: 400px; height: 500px"
-  ></pdf-viewer>
-  `
+  styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent implements OnInit {
 
@@ -19,6 +12,26 @@ export class ResumeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  title: string = 'ng2-pdf-viewer';
+
+  isLoaded: boolean = false;
+
+  page: number = 1;
+  totalPages: number = 0;
+
+  afterLoadComplete(pdfData: any) {
+    this.totalPages = pdfData.numPages;
+    this.isLoaded = true;
+  }
+
+  nextPage() {
+    this.page++;
+  }
+
+  prevPage() {
+    this.page--;
   }
 
 	// title = 'PSPDFKit for Web Angular Example';
