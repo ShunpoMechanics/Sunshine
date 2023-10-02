@@ -11,6 +11,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TheatreWorkComponent } from './theatre-work/theatre-work.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselComponent } from './carousel/carousel.component';
+import { ResumeComponent } from './resume/resume.component';
+
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -20,13 +23,15 @@ import { CarouselComponent } from './carousel/carousel.component';
     ContactComponent,
     ProjectsComponent,
     TheatreWorkComponent,
-    CarouselComponent
+    CarouselComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgbModule
+    NgbModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
