@@ -6,6 +6,29 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAYcFhllclLHceY2tBUyHCu54f-k3iuAWQ",
+  authDomain: "sunshine-b3dec.firebaseapp.com",
+  projectId: "sunshine-b3dec",
+  storageBucket: "sunshine-b3dec.appspot.com",
+  messagingSenderId: "227319508868",
+  appId: "1:227319508868:web:e15f4132891b1c29e237d1",
+  measurementId: "G-SKHS79LLVY"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+  </script>
 </head>
 <body>
   <app-root></app-root>

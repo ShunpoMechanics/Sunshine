@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/Sunshine-Website",
     "ignore": [
       "firebase.json",
       "**/.*",

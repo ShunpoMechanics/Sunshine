@@ -8,6 +8,7 @@ import { TheatreWorkComponent } from './theatre-work/theatre-work.component';
 import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/resume', pathMatch: 'full'},
   {path: 'home', component: ResumeComponent},
   {path: 'theatre', component: TheatreWorkComponent},
   {path: 'contact', component: ContactComponent},
