@@ -24,6 +24,7 @@
     "bootstrap": "^5.3.1",
     "jquery": "^3.7.1",
     "ng2-pdf-viewer": "^7.0.0",
+    "nvm": "0.0.4",
     "pspdfkit": "^2023.4.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
