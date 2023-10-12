@@ -1,5 +1,5 @@
 export interface Slide {
-    url: string,
+    url: string[],
     alt: string,
     text: string
 }
