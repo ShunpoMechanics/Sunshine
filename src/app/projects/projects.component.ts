@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Slide } from '../carousel/slide';
-import * as fs from 'fs';
 
 @Component({
   selector: 'app-projects',
@@ -9,17 +8,15 @@ import * as fs from 'fs';
 })
 export class ProjectsComponent implements OnInit {
   public slides: Slide[] = [
-    {url: ["https://placehold.co/800x600/orange/white"], alt: "First Slide", text: "At this event I did X" },
-    {url: ["https://placehold.co/800x600/red/black"], alt: "Second Slide", text: "At this event I did Y" },
-    {url: ["https://placehold.co/800x600/000000/AAA"], alt:"Third Image", text: "At this event I did Z" }];
+    {url: ["https://placehold.co/600x400/orange/white"], alt: "First Slide", text: "At this event I did X" },
+    {url: ["https://placehold.co/600x400/red/black"], alt: "Second Slide", text: "At this event I did Y" },
+    {url: ["https://placehold.co/600x400/000000/AAA"], alt:"Third Image", text: "At this event I did Z" }];
   
   constructor() { 
 
   }
 
   ngOnInit(): void {
-    let file = fs.readFileSync('', 'utf-8');
-    this.slides = JSON.parse(file);
   }
 
 }

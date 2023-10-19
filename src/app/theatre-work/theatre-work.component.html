@@ -1,1 +1,13 @@
-<app-carousel [slides]="slides" [height]="400"></app-carousel>
+<div class="row">
+    <div class="col-md-4">
+        <a routerLink="/theatre" class="path-button" routerLinkActive="selected" ariaCurrentWhenActive="page">Fine Arts</a>
+</div>
+<div class="col-md-4">
+        <a routerLink="/projects" routerLinkActive="selected" ariaCurrentWhenActive="page">Arts Education</a>
+</div>
+<div class="col-md-4">
+    <a routerLink="/events" routerLinkActive="selected" ariaCurrentWhenActive="page">Events</a>
+</div>
+</div>
+
+<app-carousel class="carousel" id="fine-arts" [slides]="slides" [height]="400"></app-carousel>

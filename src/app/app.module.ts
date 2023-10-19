@@ -14,6 +14,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ResumeComponent } from './resume/resume.component';
 
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -30,8 +31,7 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgbModule,
-    PdfViewerModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
