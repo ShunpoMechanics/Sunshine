@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import PSPDFKit from 'pspdfkit';
 
 @Component({
   selector: 'app-resume',
