@@ -14,5 +14,13 @@
 }
 
 .selected {
-    background-color: #DDDDDD;
+    background-color: #DDDD00;
+}
+
+.extra-bottom {
+    margin-bottom: 48px;
+}
+
+.row {    
+    text-align: center;
 }

@@ -32,7 +32,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #bec496;
+    background-color: #9FC86A;
     color: white;
     
     font-weight: 600;
@@ -320,7 +320,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #bec496;
+    background-color: #9FC86A;
   }
   
   li {
@@ -336,10 +336,10 @@
   }
   
   li a:hover {
-    background-color: #4c4e3c;
+    background-color: #0F7F81;
   }
 
   .selected {
-    background-color: #4c4e3c;
+    background-color: #2F4858;
     color: white !important;
   }

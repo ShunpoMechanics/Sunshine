@@ -1,0 +1,15 @@
+<div class="container extra-bottom">
+    <div class="row">
+        <div class="col-md-4">
+            <a routerLink="/theatre" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-success pull-right"> Fine Arts</button></a>
+    </div>
+    <div class="col-md-4">
+            <a routerLink="/projects" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-success pull-right"> Arts Education</button></a>
+    </div>
+    <div class="col-md-4">
+    <a routerLink="/events" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-primary pull-right"> Events</button>    </a>
+    </div>
+    </div>
+    
+    </div>
+    <app-carousel class="carousel" id="fine-arts" [slides]="slides" [height]="400"></app-carousel>

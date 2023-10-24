@@ -1,9 +1,8 @@
-.extra-bottom {
-    margin-bottom: 48px;
-}
+
 
 .path-button {
     font: bold 11px Arial;
+    height: 16px;
     text-decoration: none;
     background-color: #EEEEEE;
     color: #333333;
@@ -17,6 +16,10 @@
 
 .selected {
     background-color: #DDDD00;
+}
+
+.extra-bottom {
+    margin-bottom: 48px;
 }
 
 .row {    

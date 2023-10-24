@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Slide } from '../carousel/slide';
-import slides from '../../assets/carousel-images/mapping.json'
 
 @Component({
-  selector: 'app-theatre-work',
-  templateUrl: './theatre-work.component.html',
-  styleUrls: ['./theatre-work.component.css']
+  selector: 'app-events',
+  templateUrl: './events.component.html',
+  styleUrls: ['./events.component.css']
 })
-export class TheatreWorkComponent implements OnInit {
+export class EventsComponent implements OnInit {
 
   public activeSlides: Slide[] = [];
 
@@ -20,8 +19,9 @@ export class TheatreWorkComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.ariaTab();
   }
-
+  
   ngOnDestroy() : void {
     var ele = document.getElementById('fine-arts-tab');
     ele?.classList.remove('selected');

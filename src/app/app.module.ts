@@ -15,6 +15,9 @@ import { ResumeComponent } from './resume/resume.component';
 
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { RouterModule } from '@angular/router';
+import { EventsComponent } from './events/events.component';
+import { ArtistBioComponent } from './artist-bio/artist-bio.component';
+import { PublicationsComponent } from './publications/publications.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { RouterModule } from '@angular/router';
     ProjectsComponent,
     TheatreWorkComponent,
     CarouselComponent,
-    ResumeComponent
+    ResumeComponent,
+    EventsComponent,
+    ArtistBioComponent,
+    PublicationsComponent
   ],
   imports: [
     BrowserModule,

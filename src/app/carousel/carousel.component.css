@@ -3,6 +3,13 @@
     height: 100%;
     max-width: 1000px;
     transition: opacity 1s ease-in-out;
+    border-radius: 8px;
+}
+.carousel-caption {
+    padding-right: 157px;
+    margin-top: -33px;
+    text-align: right;    
+    color: black;
 }
 
 .row {
