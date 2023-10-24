@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Slide } from '../carousel/slide';
-import slides from '../../assets/carousel-images/mapping.json'
+// import slides from '../../assets/carousel-images/mapping.json'
 
 @Component({
   selector: 'app-theatre-work',
