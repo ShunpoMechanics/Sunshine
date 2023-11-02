@@ -1,9 +1,99 @@
 {
-    "slides": {
-      "url": [
-        "", "", ""
-      ],
-      "alt": "",
-      "text": ""
-    }
+    "theatre": [
+      {
+      "url":
+        "../assets/carousel-images/Image - Acting - City Theatre - NSU %231.JPG",
+      "alt": "Acting - City Theatre",
+      "text": "TEXT HERE",
+      "caption": "CAPTION HERE"
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - City Theatre - NSU %232.JPG",
+        "alt": "Acting - City Theatre",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+        }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - City Theatre - NSU %233.jpg",
+        "alt": "Acting - City Theatre",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - City Theatre - NSU %234.JPG",
+        "alt": "Acting - City Theatre",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      }, 
+      {
+        "url": "../assets/carousel-images/Image - Acting - Mayfly 2018 %231.jpg",
+        "alt": "Acting - Mayfly 2018",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      },
+      {
+        "url": 
+          "../assets/carousel-images/Image - Acting - Mayfly 2018 %232.jpg"
+        ,
+        "alt": "Acting - Mayfly 2018",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      },
+      {
+        "url": 
+          "../assets/carousel-images/Image - Acting - Mayfly 2018 %233.jpg"
+        ,
+        "alt": "Acting - Mayfly 2018",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      },
+      {
+        "url": 
+          "../assets/carousel-images/Image - Acting - Mayfly 2018 %234.jpg"
+        ,
+        "alt": "Acting - Mayfly 2018",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      },
+      {
+        "url": 
+          "../assets/carousel-images/Image - Acting - NNATN - Broward College %231.jpg"
+        ,
+        "alt": "Acting - NNATN - Broward College",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      },
+      {
+        "url": 
+          "../assets/carousel-images/Image - Acting - NNATN - Broward College %232.jpg"
+        ,
+        "alt": "Acting - NNATN - Broward College",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      },
+      {
+        "url": 
+          "../assets/carousel-images/Image - Acting - NNATN - Broward College %233.jpg"
+        ,
+        "alt": "Acting - NNATN - Broward College",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      },
+      {
+        "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %234.jpg",
+        "alt": "Acting - NNATN - Broward College",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      },
+      {
+        "url": 
+          "../assets/carousel-images/Image - Acting - NNATN - Broward College %235.jpg",
+        "alt": "Acting - NNATN - Broward College",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+      }
+    ]    
 }

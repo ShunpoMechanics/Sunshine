@@ -12,10 +12,10 @@ export class CarouselComponent implements OnInit {
 @Input() height!: number;
 
   activeSlide: Slide|null= null;
+  activeSrc: string|null = null;
   private count: number = 0;
 
   constructor() {
-    
   }
 
   ngOnInit(): void {
@@ -30,14 +30,14 @@ export class CarouselComponent implements OnInit {
     {
       active?.classList.remove('active');
       active?.classList.add('hidden');
-      var activeId = parseInt(active.id.substring(4));
+      var activeId = parseInt(active.id.substring(5));
 
       if(direction == "forward")
       {
         nextId = activeId + 1;
         if(nextId == this.slides.length)
           nextId = 0;
-        next = document.querySelector(`#img-${nextId}`);
+        next = document.querySelector(`#card-${nextId}`);
         console.log(nextId);
       }
       else
@@ -45,13 +45,12 @@ export class CarouselComponent implements OnInit {
         nextId = activeId - 1;
         if(nextId == -1)
         nextId = this.slides.length - 1;
-        next = document.querySelector(`#img-${nextId}`);
+        next = document.querySelector(`#card-${nextId}`);
       }
       if(next != null)
       {
         next?.classList.add('active');
         next?.classList.remove('hidden');
-        this.activeSlide = this.slides[nextId];
       }
     }
   }

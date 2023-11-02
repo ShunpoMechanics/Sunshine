@@ -2,7 +2,6 @@
 
 .path-button {
     font: bold 11px Arial;
-    height: 16px;
     text-decoration: none;
     background-color: #EEEEEE;
     color: #333333;
@@ -11,7 +10,6 @@
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
-
 }
 
 .selected {
@@ -20,6 +18,7 @@
 
 .extra-bottom {
     margin-bottom: 48px;
+    width: 470px;
 }
 
 .row {    

@@ -1,6 +1,4 @@
-.extra-bottom {
-    margin-bottom: 48px;
-}
+
 
 .path-button {
     font: bold 11px Arial;
@@ -12,11 +10,15 @@
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
-
 }
 
 .selected {
     background-color: #DDDD00;
+}
+
+.extra-bottom {
+    margin-bottom: 48px;
+    width: 470px;
 }
 
 .row {    

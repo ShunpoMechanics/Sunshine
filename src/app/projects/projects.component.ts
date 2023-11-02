@@ -9,9 +9,7 @@ import { Slide } from '../carousel/slide';
 export class ProjectsComponent implements OnInit {
   
   public slides: Slide[] = [
-    {url: ["https://placehold.co/600x400/orange/white"], alt: "First Slide", text: "At this event I did X", caption: "Test" },
-    {url: ["https://placehold.co/600x400/red/blue"], alt: "Second Slide", text: "At this event I did Y", caption: "Test" },
-    {url: ["https://placehold.co/600x400/000000/AAA"], alt:"Third Image", text: "At this event I did Z", caption: "Test" }];
+    ];
   
   constructor() { 
 
