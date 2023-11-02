@@ -10,29 +10,29 @@
             <div class="row">
                 <div class="form-field col-md-6" style="padding-left: 0%;">
                     <label for="contact-full-name">Full Name</label>
-                    <input id="contact-full-name" type="text">
+                    <input id="contact-full-name" type="text" [(ngModel)]="name">
                 </div>
                 <div class="form-field col-md-6" style="padding-right: 0%;">
                     <label for="contact-email">Reply To Email Address</label>
-                    <input id="contact-email" type="text">
+                    <input id="contact-email" type="text" [(ngModel)]="email">
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="form-field col-md-12">
                 <label for="contact-subject">Subject</label>
-                <input id="contact-subject" type="text">
+                <input id="contact-subject" type="text" [(ngModel)]="subject">
             </div>
         </div>
         <div class="row">
             <div class="form-field col-md-12">
                 <label for="contact-body">Body</label>
-                <textarea name="" id="contact-body" cols="30" rows="10"></textarea>
+                <textarea name="" id="contact-body" cols="30" rows="10" [(ngModel)]="message"></textarea>
             </div>
         </div>
         <div class="row">            
             <div class="form-field col-md-12">
-                <button class="btn btn-primary">Send</button>            
+                <button class="btn btn-primary" (click)="onSubmit()">Send</button>            
             </div>
         </div>
     </div>

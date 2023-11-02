@@ -1,0 +1,15 @@
+.pdf-viewer {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .pdfViewer {
+    overflow-y: scroll;
+  }
+
+  nav {
+    text-align: center;
+    position: unset !important;
+  }

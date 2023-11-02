@@ -17,6 +17,7 @@ import { RouterModule } from '@angular/router';
 import { EventsComponent } from './events/events.component';
 import { ArtistBioComponent } from './artist-bio/artist-bio.component';
 import { PublicationsComponent } from './publications/publications.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PublicationsComponent } from './publications/publications.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgbModule
+    NgbModule,    
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
