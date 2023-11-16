@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Slide } from '../carousel/slide';
+import manifest from '../../project-manifest.json'
 
 @Component({
   selector: 'app-events',
@@ -10,7 +11,7 @@ export class EventsComponent implements OnInit {
 
   public activeSlides: Slide[] = [];
 
-  public slides: Slide[] = [];
+  public slides: Slide[] = manifest['events'];
   
 
   constructor() { }

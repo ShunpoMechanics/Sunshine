@@ -1,13 +1,24 @@
 
 <div id="container">
-        <div class="row">
-            <div class="carousel-button col-md-1" id="right" (click)="nextImage('backwards')">
-                <i class="fa-solid fa-angle-left"></i>
-            </div>    
-            <div class="carousel-button  col-md-1" (click)="nextImage('forward')">      
-                <i class="fa-solid fa-angle-right"></i>
+        <div class="button-box">
+            <div class="row">
+                <div class="carousel-button  col-md-1" (click)="nextSet('backwards')">      
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div class="carousel-button col-md-1" id="right" (click)="nextImage('backwards')">
+                    <i class="fa-solid fa-caret-left"></i>
+                </div>    
+                <div class="carousel-button  col-md-1" (click)="nextImage('forward')">      
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+                <div class="carousel-button  col-md-1" (click)="nextSet('forward')">      
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <span class="carousel-tracker">
+                    {{tracker}}
+                </span>
             </div>
-            </div>
+        </div>
 
         <div class="row">
             <div class="card" *ngFor="let slide of slides; let i = index" [id]="'card-'+i" [ngClass]="i == 0 ? 'active' : 'hidden'">

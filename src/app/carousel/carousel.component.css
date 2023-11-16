@@ -21,9 +21,13 @@
     height: 400px;
 }
 
+.button-box {
+    margin-left: 187px;
+}
+
 .card {
     position: absolute;
-    margin-left: -48px;
+    margin-left: -62px;
     width: 627px;
     max-width: 700px;
 }
@@ -34,7 +38,12 @@
 
 .active {
     opacity: 1;
+    z-index: 8;
     /* height: auto; */
+}
+
+.carousel-tracker {
+    margin-left: 29px;
 }
 
 .hidden {
