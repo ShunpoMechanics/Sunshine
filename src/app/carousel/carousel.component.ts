@@ -13,6 +13,7 @@ export class CarouselComponent implements OnInit {
 
   activeSlide: Slide|null= null;
   activeSrc: string|null = null;
+  firstSlideIndexes: number[] = [];
   count: number = 0;
   tracker: string|null = null;
   index: number = 0;
@@ -22,7 +23,7 @@ export class CarouselComponent implements OnInit {
 
   ngOnInit(): void {
     this.activeSlide = this.slides[0];
-    this.index = 1;
+    this.firstSlideIndexes = this.slides.filter(s => s.index == 1).map(o => this.slides.indexOf(o));
     this.setTracker();
   }
 
@@ -39,7 +40,6 @@ export class CarouselComponent implements OnInit {
       if(direction == "forward")
       {
         nextId = activeId + 1;
-        this.index++;
         if(nextId == this.slides.length)
           nextId = 0;
         next = document.querySelector(`#card-${nextId}`);
@@ -48,7 +48,6 @@ export class CarouselComponent implements OnInit {
       else
       {
         nextId = activeId - 1;
-        this.index--;
         if(nextId == -1)
           nextId = this.slides.length - 1;
         next = document.querySelector(`#card-${nextId}`);
@@ -75,51 +74,36 @@ export class CarouselComponent implements OnInit {
       active?.classList.remove('active');
       active?.classList.add('hidden');
 
-      do {
-        
       if(direction == "forward")
-      {
-        nextId = activeId + 1;
-        if(nextId == this.slides.length)
+      {              
+        nextId = this.slides.findIndex(f => f.set == (this.activeSlide!.set + 1) && f.index == 1);  
+        if(nextId == -1)
           nextId = 0;
         next = document.querySelector(`#card-${nextId}`);                
       }
       else
       {
-        nextId = activeId - 1;
+        var nextSet = this.activeSlide!.set - 1;
+        nextId = this.slides.findIndex(f => f.set == nextSet && f.index == 1);          
         if(nextId == -1)
-          nextId = this.slides.length - 1;
+          nextId = this.firstSlideIndexes[this.firstSlideIndexes.length - 1];
         next = document.querySelector(`#card-${nextId}`);
       }
       nextSlide = this.slides[nextId];        
-      this.activeSlide = this.slides[activeId];        
-      var goAgain = true;
-      if(nextSlide.alt != this.activeSlide.alt)
-        goAgain = false;
-      else
-      {
-        activeId = nextId;
-      }
-    } while(goAgain);
+      this.activeSlide = nextSlide;
 
       if(next != null)
       {
         next?.classList.add('active');
-        next?.classList.remove('hidden');
+        next?.classList.remove('hidden');        
         this.setTracker();
       }
     }
   }
 
   public setTracker() {
-    var toUpdate = false;
-    if(this.index > this.count)
-      this.index = 1;
-    else if(this.index < 1)
-      toUpdate = true;
+    this.index = this.activeSlide!.index;
     this.count = this.slides.filter(s => s.alt == this.activeSlide!.alt).length;
-    if(toUpdate)
-      this.index = this.count;
     this.tracker = `${this.index} of ${this.count}`;
   }
 }

@@ -16,7 +16,6 @@ export class TheatreWorkComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.slides);
   }
 
   ngOnDestroy() : void {
