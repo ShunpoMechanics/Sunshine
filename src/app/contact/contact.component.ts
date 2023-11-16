@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { EmailService } from '../email.service';
+import emailjs from 'emailjs-com';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css'],
-  providers: [EmailService]
+  styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
   name: string = "";
@@ -13,16 +13,18 @@ export class ContactComponent {
   subject: string ="";
   message: string = "";
 
-  constructor(private emailService: EmailService) {}
+  private emailUrl = 'https://us-central1-sunshine-b3dec.cloudfunctions.net/helloWorld';
 
-  onSubmit() {
-    this.emailService.sendEmail(this.name, this.email, this.message, this.message).subscribe(
-      response => {
-        console.log('Email sent successfully!');
-      },
-      error => {
-        console.log('Error sending email:', error);
-      }
-    );
+  constructor(private http: HttpClient) {}
+
+  sendEmail(e: Event) {
+    e.preventDefault();
+    emailjs.send("gmail","template_nprxyp9",{
+      subject: this.subject,
+      from_name: this.name,
+      message: this.message,
+      reply_to: this.email,
+      }, "U3sF61MLSPwD3I6Qh");
   }
+
 }
