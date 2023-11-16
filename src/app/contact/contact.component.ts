@@ -16,6 +16,12 @@ export class ContactComponent {
   error: Boolean = false;
   constructor(private http: HttpClient) {}
 
+  ngOnInit() {
+    
+    var x = document.getElementById("myLinks");
+    x!.style.display = "none";
+  }
+
   sendEmail(e: Event) {
     e.preventDefault();
     this.validateForm();

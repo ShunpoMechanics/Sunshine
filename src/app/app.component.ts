@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Sunshine-Website';
+
+  public myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x!.style.display === "block") {
+      x!.style.display = "none";
+    } else {
+      x!.style.display = "block";
+    }
+  }
 }

@@ -9,7 +9,9 @@ export class PublicationsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
+    var x = document.getElementById("myLinks");
+    x!.style.display = "none";
   }
 
 }

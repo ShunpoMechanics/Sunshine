@@ -24,3 +24,19 @@
 .row {    
     text-align: center;
 }
+
+
+@media only screen and (max-width: 600px)
+{
+    button {        
+        margin-bottom: 8px;
+    }
+    
+    .row {
+        margin-left: 42px;
+    }
+
+    .col-md-4 {
+        width: unset !important; 
+    }
+}

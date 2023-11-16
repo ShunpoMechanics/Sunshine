@@ -17,6 +17,8 @@ export class EventsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    var x = document.getElementById("myLinks");
+    x!.style.display = "none";
     this.ariaTab();
   }
   

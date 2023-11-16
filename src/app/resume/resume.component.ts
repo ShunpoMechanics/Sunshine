@@ -11,6 +11,8 @@ export class ResumeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    var x = document.getElementById("myLinks");
+    x!.style.display = "none";
   }
 
   title: string = 'ng2-pdf-viewer';

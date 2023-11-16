@@ -21,7 +21,7 @@
         </div>
 
         <div class="row">
-            <div class="card" *ngFor="let slide of slides; let i = index" [id]="'card-'+i" [ngClass]="i == 0 ? 'active' : 'hidden'">
+            <div class="card" *ngFor="let slide of slides; let i = index" [id]="'card-'+i" [ngClass]="i == 0 ? 'active-img' : 'hidden'">
                 <img class="card-img-top" [src]="slide.url" [alt]="slide.alt">
                 <div class="card-body">
                   <h5 class="card-title">{{slide.caption}}</h5>

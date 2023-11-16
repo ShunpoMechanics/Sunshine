@@ -17,6 +17,8 @@ export class ProjectsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    var x = document.getElementById("myLinks");
+    x!.style.display = "none";
     this.ariaTab();
   }
 

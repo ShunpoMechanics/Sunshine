@@ -10,6 +10,8 @@ export class ArtistBioComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    var x = document.getElementById("myLinks");
+    x!.style.display = "none";
   }
 
 }

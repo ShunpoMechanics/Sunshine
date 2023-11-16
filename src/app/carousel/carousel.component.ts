@@ -22,18 +22,20 @@ export class CarouselComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    var x = document.getElementById("myLinks");
+    x!.style.display = "none";
     this.activeSlide = this.slides[0];
     this.firstSlideIndexes = this.slides.filter(s => s.index == 1).map(o => this.slides.indexOf(o));
     this.setTracker();
   }
 
   public nextImage(direction: string) {
-    var active = document.querySelector('.active');
+    var active = document.querySelector('.active-img');
     var nextId: number;    
     var next: Element|null;
     if(active != null)
     {
-      active?.classList.remove('active');
+      active?.classList.remove('active-img');
       active?.classList.add('hidden');
       var activeId = parseInt(active.id.substring(5));
 
@@ -55,7 +57,7 @@ export class CarouselComponent implements OnInit {
       }
       if(next != null)
       {
-        next?.classList.add('active');
+        next?.classList.add('active-img');
         next?.classList.remove('hidden');
         this.setTracker();
       }
@@ -63,7 +65,7 @@ export class CarouselComponent implements OnInit {
   }
 
   public nextSet(direction: string) {
-    var active = document.querySelector('.active');
+    var active = document.querySelector('.active-img');
     var activeId = parseInt(active!.id.substring(5));
     var nextId: number;    
     var next: Element|null;
@@ -71,7 +73,7 @@ export class CarouselComponent implements OnInit {
 
     if(active != null)
     {
-      active?.classList.remove('active');
+      active?.classList.remove('active-img');
       active?.classList.add('hidden');
 
       if(direction == "forward")
@@ -94,7 +96,7 @@ export class CarouselComponent implements OnInit {
 
       if(next != null)
       {
-        next?.classList.add('active');
+        next?.classList.add('active-img');
         next?.classList.remove('hidden');        
         this.setTracker();
       }

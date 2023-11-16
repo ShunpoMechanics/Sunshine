@@ -16,16 +16,18 @@ export class TheatreWorkComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    var x = document.getElementById("myLinks");
+    x!.style.display = "none";
   }
 
   ngOnDestroy() : void {
-    var ele = document.getElementById('fine-arts-tab');
-    ele?.classList.remove('selected');
+    // var ele = document.getElementById('fine-arts-tab');
+    // ele?.classList.remove('selected');
   }
 
   ariaTab() {
-    var ele = document.getElementById('fine-arts-tab');
-    ele?.classList.add('selected');
+    // var ele = document.getElementById('fine-arts-tab');
+    // ele?.classList.add('selected');
   }
 
 }
