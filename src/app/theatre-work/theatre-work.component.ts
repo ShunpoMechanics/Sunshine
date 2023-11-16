@@ -11,7 +11,7 @@ export class TheatreWorkComponent implements OnInit {
 
   public activeSlides: Slide[] = [];
 
-  public slides: Slide[] = manifest.theatre;
+  public slides: Slide[] = manifest['fine-arts'];
 
   constructor() { }
 

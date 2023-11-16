@@ -20,6 +20,10 @@ input {
     margin: auto;
 }
 
+.error {
+    border-color: red;
+}
+
 .contact-blurb {
     
 }

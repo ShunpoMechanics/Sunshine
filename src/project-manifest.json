@@ -1,5 +1,5 @@
 {
-    "theatre": [
+    "fine-arts": [
       {
       "url":
         "../assets/carousel-images/Image - Acting - City Theatre - NSU %231.JPG",
@@ -52,7 +52,7 @@
       },
       {
         "url": 
-          "../assets/carousel-images/Image - Acting - Mayfly 2018 %234.jpg"
+          "../assets/carousel-images/Image - Acting - Mayfly 2018 %234.JPG"
         ,
         "alt": "Acting - Mayfly 2018",
         "text": "TEXT HERE",
@@ -68,7 +68,7 @@
       },
       {
         "url": 
-          "../assets/carousel-images/Image - Acting - NNATN - Broward College %232.jpg"
+          "../assets/carousel-images/Image - Acting - NNATN - Broward College %232.JPG"
         ,
         "alt": "Acting - NNATN - Broward College",
         "text": "TEXT HERE",
@@ -76,24 +76,279 @@
       },
       {
         "url": 
-          "../assets/carousel-images/Image - Acting - NNATN - Broward College %233.jpg"
+          "../assets/carousel-images/Image - Acting - NNATN - Broward College %233.JPG"
         ,
         "alt": "Acting - NNATN - Broward College",
         "text": "TEXT HERE",
         "caption": "CAPTION HERE"
       },
       {
-        "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %234.jpg",
+        "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %234.JPG",
         "alt": "Acting - NNATN - Broward College",
         "text": "TEXT HERE",
         "caption": "CAPTION HERE"
       },
       {
         "url": 
-          "../assets/carousel-images/Image - Acting - NNATN - Broward College %235.jpg",
+          "../assets/carousel-images/Image - Acting - NNATN - Broward College %235.JPG",
         "alt": "Acting - NNATN - Broward College",
         "text": "TEXT HERE",
         "caption": "CAPTION HERE"
-      }
+      },
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU #1.JPG",
+        "alt": "Image - Acting - She Kills Monsters - NSU",
+        "text": "TEXT HERE",
+        "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU #2.JPG",
+          "alt": "Image - Acting - She Kills Monsters - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+          }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU #3.jpg",
+          "alt": "Image - Acting - She Kills Monsters - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU #4.JPG",
+          "alt": "Image - Acting - She Kills Monsters - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU #5.JPG",
+          "alt": "Image - Acting - She Kills Monsters - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU #6.JPG",
+          "alt": "Image - Acting - She Kills Monsters - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU #7.JPG",
+          "alt": "Image - Acting - She Kills Monsters - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU #8.JPG",
+          "alt": "Image - Acting - She Kills Monsters - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #1.JPG",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #2.JPG",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #3.JPG",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #4.JPG",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #5.JPG",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #6.JPG",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #7.JPG",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }
+        , 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #8.JPG",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }
+        , 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #9.JPG",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }
+        , 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - LSOH #10.jpg",
+          "alt": "Image - Design - LSOH",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Design - Set Builder Broward College #1.JPG",
+          "alt": "Image - Design - Set Builder Broward College",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Directing Personal Piece - NSU #1.JPG",
+          "alt": "Image - Directing Personal Piece - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Directing Personal Piece - NSU #2.jpg",
+          "alt": "Image - Directing Personal Piece - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Directing Personal Piece - NSU #3.JPG",
+          "alt": "Image - Directing Personal Piece - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - MUA + Costume Design - LSOH NSU #1.JPG",
+          "alt": "Image - MUA + Costume Design - LSOH NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - MUA + Costume Design - LSOH NSU #2.JPG",
+          "alt": "Image - MUA + Costume Design - LSOH NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - MUA + Costume Design - LSOH NSU #3.JPG",
+          "alt": "Image - MUA + Costume Design - LSOH NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - MUA Design - NSU #1.jpg",
+          "alt": "Image - MUA Design - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - MUA Design - NSU #2.JPG",
+          "alt": "Image - MUA Design - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - MUA Design - NSU #3.JPG",
+          "alt": "Image - MUA Design - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - MUA Design - NSU #4.JPG",
+          "alt": "Image - MUA Design - NSU",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - MUA Design - President's MUA #1.JPG",
+          "alt": "Image - MUA Design - President's MUA",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - MUA Design - President's MUA #2.JPG",
+          "alt": "Image - MUA Design - President's MUA",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Stage Management - Miscast #1.JPG",
+          "alt": "Image - Stage Management - Miscast",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - Stage Management - Miscast #2.JPG",
+          "alt": "Image - Stage Management - Miscast",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - This is Improv! #1.JPG",
+          "alt": "Image - This is Improv!",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - This is Improv! #2.JPG",
+          "alt": "Image - This is Improv!",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }, 
+        {
+          "url":
+            "../assets/carousel-images/Image - This is Improv! #3.JPG",
+          "alt": "Image - This is Improv!",
+          "text": "TEXT HERE",
+          "caption": "CAPTION HERE"
+        }
     ]    
 }
