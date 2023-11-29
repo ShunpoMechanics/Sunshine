@@ -23,7 +23,7 @@
 }
 
 .button-box {
-    margin-left: 187px;
+    margin-left: 180px;
 }
 
 .card {
@@ -31,6 +31,7 @@
     margin-left: -62px;
     width: 627px;
     max-width: 700px;
+    font-family: "Nourd" !important;
 }
 
 .row {
@@ -44,7 +45,7 @@
 }
 
 .carousel-tracker {
-    margin-left: 29px;
+    margin-left: 38px;
 }
 
 .hidden {

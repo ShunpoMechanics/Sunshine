@@ -11,7 +11,7 @@ import { ArtistBioComponent } from './artist-bio/artist-bio.component';
 import { PublicationsComponent } from './publications/publications.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/resume', pathMatch: 'full'},
+  {path: '', redirectTo: '/artist-bio', pathMatch: 'full'},
   {path: 'home', component: ResumeComponent},
   {path: 'theatre', component: TheatreWorkComponent},
   {path: 'contact', component: ContactComponent},

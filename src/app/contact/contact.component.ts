@@ -50,6 +50,7 @@ export class ContactComponent {
   }
 
   validateForm() {
+    this.error = false;
     document.getElementById("contact-full-name")?.classList.remove("error");
     document.getElementById("contact-full-name")?.classList.remove("error");
     document.getElementById("contact-full-name")?.classList.remove("error");

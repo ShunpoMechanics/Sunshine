@@ -12,6 +12,14 @@
     border-left: 1px solid #CCCCCC;
 }
 
+.container {
+    font-family: "Nourd" !important;
+}
+
+.btn-blue {
+    color: white;
+}
+
 .selected {
     background-color: #DDDD00;
 }
@@ -19,6 +27,10 @@
 .extra-bottom {
     margin-bottom: 48px;
     width: 470px;
+}
+
+.btn-blue {
+    background-color: #2f4858;
 }
 
 .row {    

@@ -6,6 +6,10 @@
     margin-bottom: 8px;
 }
 
+.container {
+    font-family: "Nourd" !important;
+}
+
 input, textarea {
     border-radius: 6px;
     width: 100%;
@@ -22,10 +26,6 @@ input {
 
 .error {
     border-color: red;
-}
-
-.contact-blurb {
-    
 }
 
 @media only screen and (max-width: 400px) {

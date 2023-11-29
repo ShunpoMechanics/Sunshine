@@ -5,6 +5,10 @@
     margin: 0 auto;
   }
 
+.container {
+  font-family: "Nourd" !important;
+}
+
   .pdfViewer {
     overflow-y: scroll;
   }

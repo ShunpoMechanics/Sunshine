@@ -20,16 +20,16 @@
 
   <div class="topnav">
     
-  <a href="#home" class="active" style="color: black; background-color: 9FC86A !important;">Logo</a>
+  <a href="#home" class="active" style="color: black; background-color: 9FC86A !important;"><img class="logo-img" src="../assets/logo.png"></a>
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
-      <a routerLink="/artist-bio" routerLinkActive="selected" ariaCurrentWhenActive="page">Artist Biography</a>
-      <a routerLink="/theatre" routerLinkActive="selected" ariaCurrentWhenActive="page" id="fine-arts-tab">Fine Arts</a>
+      <a class="topnav-item" routerLink="/artist-bio" routerLinkActive="selected" ariaCurrentWhenActive="page">Artist Biography</a>
+      <a class="topnav-item" routerLink="/theatre" routerLinkActive="selected" ariaCurrentWhenActive="page" id="fine-arts-tab">Fine Arts</a>
     <!-- <a routerLink="/projects" routerLinkActive="selected" ariaCurrentWhenActive="page">Arts Education</a> -->
     <!-- <a routerLink="/events" routerLinkActive="selected" ariaCurrentWhenActive="page">Event Coordination</a> -->
-    <a routerLink="/publications" routerLinkActive="selected" ariaCurrentWhenActive="page">Publications</a>
-    <a routerLink="/resume" routerLinkActive="selected" ariaCurrentWhenActive="page">Resume</a>
-    <a routerLink="/contact" routerLinkActive="selected" ariaCurrentWhenActive="page">Contact Me</a>
+    <a class="topnav-item" routerLink="/publications" routerLinkActive="selected" ariaCurrentWhenActive="page">Publications</a>
+    <a class="topnav-item" routerLink="/resume" routerLinkActive="selected" ariaCurrentWhenActive="page">Resume</a>
+    <a class="topnav-item" routerLink="/contact" routerLinkActive="selected" ariaCurrentWhenActive="page">Contact Me</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" (click)="this.myFunction()">

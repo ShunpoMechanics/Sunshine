@@ -12,6 +12,15 @@
     border-left: 1px solid #CCCCCC;
 }
 
+.container {
+    font-family: "Nourd" !important;
+}
+
+.btn-blue {
+    color: white;
+}
+
+
 .selected {
     background-color: #DDDD00;
 }
@@ -23,6 +32,10 @@
 
 .row {    
     text-align: center;
+}
+
+.btn-blue {
+    background-color: #2f4858;
 }
 
 @media only screen and (max-width: 600px)
