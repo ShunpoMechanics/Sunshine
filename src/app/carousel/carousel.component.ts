@@ -108,4 +108,9 @@ export class CarouselComponent implements OnInit {
     this.count = this.slides.filter(s => s.alt == this.activeSlide!.alt).length;
     this.tracker = `${this.index} of ${this.count}`;
   }
+
+  public injectHtml(obj: any, text: string) {
+    var x = document.getElementById(obj);
+    x!.innerHTML = text;
+  }
 }

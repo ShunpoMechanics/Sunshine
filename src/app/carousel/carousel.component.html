@@ -25,7 +25,8 @@
                 <img class="card-img-top" [src]="slide.url" [alt]="slide.alt">
                 <div class="card-body">
                   <h5 class="card-title">{{slide.caption}}</h5>
-                  <p class="card-text">{{slide.text}}</p>
+                  <p class="card-text" [id]="'text-'+i">{{
+                    injectHtml("text-"+i, slide.text)}}</p>
                 </div>
               </div>
         </div>

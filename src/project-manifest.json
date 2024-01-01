@@ -1,608 +1,608 @@
 {
-    "fine-arts": [
-      {
+  "fine-arts": [
+    {
+    "url":
+      "../assets/carousel-images/Image - Acting - City Theatre - NSU %231.JPG",
+    "alt": "Acting - City Theatre",
+    "text": "Lesly and her fellow Nova Southeastern University peers worked alongside City Theatre Miami to read original Script Material from local Playwrights, playing numerous characters and performing with scripts in hand on a bare stage.",
+    "caption": "Shorts with City Theatre Miami | 2019",
+    "index": 1,
+    "set": 1 
+    }, 
+    {
       "url":
-        "../assets/carousel-images/Image - Acting - City Theatre - NSU %231.JPG",
+        "../assets/carousel-images/Image - Acting - City Theatre - NSU %232.JPG",
       "alt": "Acting - City Theatre",
-      "text": "TEXT HERE",
-      "caption": "CAPTION HERE",
-      "index": 1,
-      "set": 1 
+      "text": "Lesly and her fellow Nova Southeastern University peers worked alongside City Theatre Miami to read original Script Material from local Playwrights, playing numerous characters and performing with scripts in hand on a bare stage.",
+      "caption": "Shorts with City Theatre Miami | 2019",
+      "index": 2,
+      "set": 1
       }, 
-      {
-        "url":
-          "../assets/carousel-images/Image - Acting - City Theatre - NSU %232.JPG",
-        "alt": "Acting - City Theatre",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 2,
-        "set": 1
-        }, 
-      {
-        "url":
-          "../assets/carousel-images/Image - Acting - City Theatre - NSU %233.jpg",
-        "alt": "Acting - City Theatre",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 3,
-        "set": 1
-      }, 
-      {
-        "url":
-          "../assets/carousel-images/Image - Acting - City Theatre - NSU %234.JPG",
-        "alt": "Acting - City Theatre",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 4,
-        "set": 1
-      }, 
-      {
-        "url": "../assets/carousel-images/Image - Acting - MayFly 2018 %231.jpg",
-        "alt": "Acting - Mayfly 2018",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 1,
-        "set": 2
-      },
-      {
-        "url": 
-          "../assets/carousel-images/Image - Acting - MayFly 2018 %232.jpg",
-        "alt": "Acting - Mayfly 2018",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 2,
-        "set": 2
-      },
-      {
-        "url": 
-          "../assets/carousel-images/Image - Acting - MayFly 2018 %233.jpg",
-        "alt": "Acting - Mayfly 2018",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 3,
-        "set": 3
-      },
-      {
-        "url": 
-          "../assets/carousel-images/Image - Acting - MayFly 2018 %234.JPG",
-        "alt": "Acting - Mayfly 2018",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 4,
-        "set": 4
-      },
-      {
-        "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %231.jpg",
-        "alt": "Acting - NNATN - Broward College",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 1,
-        "set": 3
-      },
-      {
-        "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %232.JPG",
-        "alt": "Acting - NNATN - Broward College",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 2,
-        "set": 3
-      },
-      {
-        "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %233.JPG",
-        "alt": "Acting - NNATN - Broward College",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 3,
-        "set": 3
-      },
-      {
-        "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %234.JPG",
-        "alt": "Acting - NNATN - Broward College",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 4,
-        "set": 3
-      },
-      {
-        "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %235.JPG",
-        "alt": "Acting - NNATN - Broward College",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 5,
-        "set": 3
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %231.JPG",
-        "alt": "Image - Acting - She Kills Monsters - NSU",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 1,
-        "set": 4
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %232.JPG",
-          "alt": "Image - Acting - She Kills Monsters - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 2,
-          "set": 4
-          }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %233.JPG",
-          "alt": "Image - Acting - She Kills Monsters - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 3,
-          "set": 4
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %234.JPG",
-          "alt": "Image - Acting - She Kills Monsters - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 4,
-          "set": 4
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %235.JPG",
-          "alt": "Image - Acting - She Kills Monsters - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 5,
-          "set": 4
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %236.JPG",
-          "alt": "Image - Acting - She Kills Monsters - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 6,
-          "set": 4
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %237.JPG",
-          "alt": "Image - Acting - She Kills Monsters - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 7,
-          "set": 4
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %238.JPG",
-          "alt": "Image - Acting - She Kills Monsters - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 8,
-          "set": 4
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %231.JPG",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 1,
-          "set": 5
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %232.JPG",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 2,
-          "set": 5
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %233.JPG",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 3,
-          "set": 5
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %234.JPG",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 4,
-          "set": 5
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %235.JPG",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 5,
-          "set": 5
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %236.JPG",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 6,
-          "set": 5
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %237.JPG",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 7,
-          "set": 5
-        }
-        , 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %238.JPG",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 8,
-          "set": 5
-        }
-        , 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %239.JPG",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 9,
-          "set": 5
-        }
-        , 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - LSOH %2310.jpg",
-          "alt": "Image - Design - LSOH",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 10,
-          "set": 5
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Design - Set Builder Broward College %231.JPG",
-          "alt": "Image - Design - Set Builder Broward College",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 1,
-          "set": 6
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Directing Personal Piece - NSU %231.JPG",
-          "alt": "Image - Directing Personal Piece - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 1,
-          "set": 7
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Directing Personal Piece - NSU %232.jpg",
-          "alt": "Image - Directing Personal Piece - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 2,
-          "set": 7
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Directing Personal Piece - NSU %233.JPG",
-          "alt": "Image - Directing Personal Piece - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 3,
-          "set": 7
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - MUA + Costume Design - LSOH NSU %231.JPG",
-          "alt": "Image - MUA + Costume Design - LSOH NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 1,
-          "set": 8
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - MUA + Costume Design - LSOH NSU %232.JPG",
-          "alt": "Image - MUA + Costume Design - LSOH NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 2,
-          "set": 8
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - MUA + Costume Design - LSOH NSU %233.jpg",
-          "alt": "Image - MUA + Costume Design - LSOH NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 3,
-          "set": 8
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - MUA Design - NSU %231.jpg",
-          "alt": "Image - MUA Design - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 1,
-          "set": 9
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - MUA Design - NSU %232.JPG",
-          "alt": "Image - MUA Design - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 2,
-          "set": 9
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - MUA Design - NSU %233.jpg",
-          "alt": "Image - MUA Design - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 3,
-          "set": 9
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - MUA Design - NSU %234.jpg",
-          "alt": "Image - MUA Design - NSU",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 4,
-          "set": 9
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - MUA Design - President's MUA %231.jpg",
-          "alt": "Image - MUA Design - President's MUA",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 1,
-          "set": 10
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - MUA Design - President's MUA %232.webp",
-          "alt": "Image - MUA Design - President's MUA",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 2,
-          "set": 10
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Stage Management - Miscast %231.jpg",
-          "alt": "Image - Stage Management - Miscast",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 1,
-          "set": 11
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - Stage Management - Miscast %232.JPG",
-          "alt": "Image - Stage Management - Miscast",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 2,
-          "set": 11
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - This is Improv! %231.jpg",
-          "alt": "Image - This is Improv!",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 1,
-          "set": 12
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - This is Improv! %232.jpg",
-          "alt": "Image - This is Improv!",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 2,
-          "set": 12
-        }, 
-        {
-          "url":
-            "../assets/carousel-images/Image - This is Improv! %233.jpg",
-          "alt": "Image - This is Improv!",
-          "text": "TEXT HERE",
-          "caption": "CAPTION HERE",
-          "index": 3,
-          "set": 12
-        }
-    ],
-    "arts-education": [
-      {
-        "url":
-          "../assets/carousel-images/Image - Directing 101 Dalmatians %231.jpg",
-        "alt": "Image - Directing 101 Dalmatians",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 1,
-        "set": 1
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Directing 101 Dalmatians %232.jpg",
-        "alt": "Image - Directing 101 Dalmatians",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 2,
-        "set": 1
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Directing 101 Dalmatians %233.jpg",
-        "alt": "Image - Directing 101 Dalmatians",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 3,
-        "set": 1
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Directing 101 Dalmatians %234.jpg",
-        "alt": "Image - Directing 101 Dalmatians",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 4,
-        "set": 1
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Directing 101 Dalmatians %235.JPG",
-        "alt": "Image - Directing 101 Dalmatians",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 5,
-        "set": 1
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Directing 101 Dalmatians %236.jpg",
-        "alt": "Image - Directing 101 Dalmatians",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 6,
-        "set": 1
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - BBHarts Teaching %231.jpg",
-        "alt": "Image - BBHarts Teaching",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 1,
-        "set": 2
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - BBHarts Teaching %232.jpg",
-        "alt": "Image - BBHarts Teaching",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 2,
-        "set": 2
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - NSU Professor %231.jpg",
-        "alt": "Image - NSU Professor",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 1,
-        "set": 3
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - NSU Professor %232.jpg",
-        "alt": "Image - NSU Professor",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 2,
-        "set": 3
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - NSU Professor %233.jpg",
-        "alt": "Image - NSU Professor",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 3,
-        "set": 3
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Teaching Assistant at MLA %231.jpg",
-        "alt": "Image - Teaching Assistant at MLA",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 1,
-        "set": 4
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Teaching Assistant at MLA %232.jpg",
-        "alt": "Image - Teaching Assistant at MLA",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 2,
-        "set": 4
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Teaching Assistant at MLA %233.jpg",
-        "alt": "Image - Teaching Assistant at MLA",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 3,
-        "set": 4
-      }      
-    ],
-    "events": [
-      {
+    {
       "url":
-        "../assets/carousel-images/Image - Hosting - Black Box Awards - %231.JPG",
-      "alt": "Image - Hosting - Black Box Awards",
-      "text": "TEXT HERE",
-      "caption": "CAPTION HERE",
+        "../assets/carousel-images/Image - Acting - City Theatre - NSU %233.jpg",
+      "alt": "Acting - City Theatre",
+      "text": "Lesly and her fellow Nova Southeastern University peers worked alongside City Theatre Miami to read original Script Material from local Playwrights, playing numerous characters and performing with scripts in hand on a bare stage.",
+      "caption": "Shorts with City Theatre Miami | 2019",
+      "index": 3,
+      "set": 1
+    }, 
+    {
+      "url":
+        "../assets/carousel-images/Image - Acting - City Theatre - NSU %234.JPG",
+      "alt": "Acting - City Theatre",
+      "text": "Lesly and her fellow Nova Southeastern University peers rehearsing with the guidance of City Theatre Miami. ",
+      "caption": "Rehearsal for Shorts with City Theatre Miami | 2019",
+      "index": 4,
+      "set": 1
+    }, 
+    {
+      "url": "../assets/carousel-images/Image - Acting - MayFly 2018 %231.jpg",
+      "alt": "Acting - Mayfly 2018",
+      "text": "Students have twenty-four hours to devise the entirety of a 10-minute play on their own. In 2018, Lesly performed an original piece by Chris Gacinski involving fraudulent mediums attempting to attract the audience into their scheme. ",
+      "caption": "Mayfly: 24-HR Theatre Project | 2018",
+      "index": 1,
+      "set": 2
+    },
+    {
+      "url": 
+        "../assets/carousel-images/Image - Acting - MayFly 2018 %232.jpg",
+      "alt": "Acting - Mayfly 2018",
+      "text": "Students have twenty-four hours to devise the entirety of a 10-minute play on their own. In 2018, Lesly performed an original piece by Chris Gacinski involving fraudulent mediums attempting to attract the audience into their scheme.",
+      "caption": "Mayfly: 24-HR Theatre Project | 2018",
+      "index": 2,
+      "set": 2
+    },
+    {
+      "url": 
+        "../assets/carousel-images/Image - Acting - MayFly 2018 %233.jpg",
+      "alt": "Acting - Mayfly 2018",
+      "text": "Students have twenty-four hours to devise the entirety of a 10-minute play on their own. In 2018, Lesly performed an original piece by Chris Gacinski involving fraudulent mediums attempting to attract the audience into their scheme. ",
+      "caption": "Mayfly: 24-HR Theatre Project | 2018",
+      "index": 3,
+      "set": 2
+    },
+    {
+      "url": 
+        "../assets/carousel-images/Image - Acting - MayFly 2018 %234.JPG",
+      "alt": "Acting - Mayfly 2018",
+      "text": "Students have twenty-four hours to devise the entirety of a 10-minute play on their own. In 2018, Lesly performed an original piece by Chris Gacinski involving fraudulent mediums attempting to attract the audience into their scheme. ",
+      "caption": "Mayfly: 24-HR Theatre Project | 2018",
+      "index": 4,
+      "set": 2
+    },
+    {
+      "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %231.jpg",
+      "alt": "Acting - NNATN - Broward College",
+      "text": "Directed by Larry Bauman, Lesly performed as the title character Nellie Quakenbush in a 3-show sold-out run at Broward College.",
+      "caption": "No, No A Million Times No! | 2016",
+      "index": 1,
+      "set": 3
+    },
+    {
+      "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %232.JPG",
+      "alt": "Acting - NNATN - Broward College",
+      "text": "Directed by Larry Bauman, Lesly performed as the title character Nellie Quakenbush in a 3-show sold-out run at Broward College.",
+      "caption": "No, No A Million Times No! | 2016",
+      "index": 2,
+      "set": 3
+    },
+    {
+      "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %233.JPG",
+      "alt": "Acting - NNATN - Broward College",
+"text": "Directed by Larry Bauman, Lesly performed as the title character Nellie Quakenbush in a 3-show sold-out run at Broward College.",
+      "caption": "No, No A Million Times No! | 2016",
+      "index": 3,
+      "set": 3
+    },
+    {
+      "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %234.JPG",
+      "alt": "Acting - NNATN - Broward College",
+      "text": "Directed by Larry Bauman, Lesly performed as the title character Nellie Quakenbush in a 3-show sold-out run at Broward College.",
+      "caption": "No, No A Million Times No! | 2016",
+      "index": 4,
+      "set": 3
+    },
+    {
+      "url": "../assets/carousel-images/Image - Acting - NNATN - Broward College %235.JPG",
+      "alt": "Acting - NNATN - Broward College",
+      "text": "Directed by Larry Bauman, Lesly performed as the title character Nellie Quakenbush in a 3-show sold-out run at Broward College.",
+      "caption": "No, No A Million Times No! | 2016",
+      "index": 5,
+      "set": 3
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %231.JPG",
+      "alt": "Image - Acting - She Kills Monsters - NSU",
+      "text": "Lesly performed duel roles with the Nova Southeastern University production of She Kills Monsters. Not only did she play the part of Farrah the Fairy, BugBear #1, and Kobold #1, but she additionally designed all costumes and makeup for the performance as well. ",
+      "caption": "She Kills Monsters | 2019",
+      "index": 1,
+      "set": 4
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %232.JPG",
+        "alt": "Image - Acting - She Kills Monsters - NSU",
+        "text": "Lesly performed duel roles with the Nova Southeastern University production of She Kills Monsters. Not only did she play the part of Farrah the Fairy, BugBear #1, and Kobold #1, but she additionally designed all costumes and makeup for the performance as well. ",
+        "caption": "She Kills Monsters | 2019",
+        "index": 2,
+        "set": 4
+        }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %233.JPG",
+        "alt": "Image - Acting - She Kills Monsters - NSU",
+      "text": "Lesly performed duel roles with the Nova Southeastern University production of She Kills Monsters. Not only did she play the part of Farrah the Fairy, BugBear #1, and Kobold #1, but she additionally designed all costumes and makeup for the performance as well. ",
+      "caption": "She Kills Monsters | 2019",
+        "index": 3,
+        "set": 4
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %234.JPG",
+        "alt": "Image - Acting - She Kills Monsters - NSU",
+         "text": "Lesly performed duel roles with the Nova Southeastern University production of She Kills Monsters. Not only did she play the part of Farrah the Fairy, BugBear #1, and Kobold #1, but she additionally designed all costumes and makeup for the performance as well. ",
+      "caption": "She Kills Monsters | 2019",
+        "index": 4,
+        "set": 4
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %235.JPG",
+        "alt": "Image - Acting - She Kills Monsters - NSU",
+        "text": "Lesly performed duel roles with the Nova Southeastern University production of She Kills Monsters. Not only did she play the part of Farrah the Fairy, BugBear #1, and Kobold #1, but she additionally designed all costumes and makeup for the performance as well. ",
+      "caption": "She Kills Monsters | 2019",
+        "index": 5,
+        "set": 4
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %236.JPG",
+        "alt": "Image - Acting - She Kills Monsters - NSU",
+        "text": "Lesly performed duel roles with the Nova Southeastern University production of She Kills Monsters. Not only did she play the part of Farrah the Fairy, BugBear #1, and Kobold #1, but she additionally designed all costumes and makeup for the performance as well. ",
+      "caption": "She Kills Monsters | 2019",
+        "index": 6,
+        "set": 4
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %237.JPG",
+        "alt": "Image - Acting - She Kills Monsters - NSU",
+        "text": "Lesly performed duel roles with the Nova Southeastern University production of She Kills Monsters. Not only did she play the part of Farrah the Fairy, BugBear #1, and Kobold #1, but she additionally designed all costumes and makeup for the performance as well. ",
+      "caption": "She Kills Monsters | 2019",
+        "index": 7,
+        "set": 4
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Acting - She Kills Monsters - NSU %238.JPG",
+        "alt": "Image - Acting - She Kills Monsters - NSU",
+        "text": "Lesly performed duel roles with the Nova Southeastern University production of She Kills Monsters. Not only did she play the part of Farrah the Fairy, BugBear #1, and Kobold #1, but she additionally designed all costumes and makeup for the performance as well. ",
+      "caption": "She Kills Monsters | 2019",
+        "index": 8,
+        "set": 4
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %231.JPG",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 1,
+        "set": 5
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %232.JPG",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 2,
+        "set": 5
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %233.JPG",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 3,
+        "set": 5
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %234.JPG",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 4,
+        "set": 5
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %235.JPG",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 5,
+        "set": 5
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %236.JPG",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 6,
+        "set": 5
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %237.JPG",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 7,
+        "set": 5
+      }
+      , 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %238.JPG",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 8,
+        "set": 5
+      }
+      , 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %239.JPG",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 9,
+        "set": 5
+      }
+      , 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - LSOH %2310.jpg",
+        "alt": "Image - Design - LSOH",
+        "text": "Lesly assisted in creating and designing all Audrey II puppets featured within Nova Southeastern University's Production of Little Shop of Horrors. All creatures were devised of either PVC Pipe and Muslin, or Cement Clay on Styrofoam or Plastic.",
+        "caption": "Little Shop of Horrors - Creature Design | 2018",
+        "index": 10,
+        "set": 5
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Design - Set Builder Broward College %231.JPG",
+        "alt": "Image - Design - Set Builder Broward College",
+        "text": "Lesly was one of four individuals entrusted with building the set for Broward College's production of A Raisin In The Sun. This included tasks such as erecting set pieces, making sure kitchen appliances worked on set, painting, hanging up stage lighting, and more.",
+        "caption": "A Raisin In The Sun Set Builder | 2015",
+        "index": 1,
+        "set": 6
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Directing Personal Piece - NSU %231.JPG",
+        "alt": "Image - Directing Personal Piece - NSU",
+        "text": "Lesly Directed two personal pieces using short plays found within the Nova Southeastern University library involving personal growth, and overcoming guilt and grief. The following images are from Rehearsals regarding both pieces.",
+        "caption": "Personal Directing Piece(s)",
+        "index": 1,
+        "set": 7
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Directing Personal Piece - NSU %232.jpg",
+        "alt": "Image - Directing Personal Piece - NSU",
+        "text": "Lesly Directed two personal pieces using short plays found within the Nova Southeastern University library involving personal growth, and overcoming guilt and grief. The following images are from Rehearsals regarding both pieces.",
+        "caption": "Personal Directing Piece(s)",
+        "index": 2,
+        "set": 7
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Directing Personal Piece - NSU %233.JPG",
+        "alt": "Image - Directing Personal Piece - NSU",
+        "text": "Lesly Directed two personal pieces using short plays found within the Nova Southeastern University library involving personal growth, and overcoming guilt and grief. The following images are from Rehearsals regarding both pieces.",
+        "caption": "Personal Directing Piece(s)",
+        "index": 3,
+        "set": 7
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - MUA + Costume Design - LSOH NSU %231.JPG",
+        "alt": "Image - MUA + Costume Design - LSOH NSU",
+        "text": "With the overarching theme of a Black and White <i>Tim Burton</i> inspired tone for the production, Lesly worked towards ensuring that each character's attire and makeup fit their character and the adjoining concept.",
+        "caption": "Designing Little Shop of Horrors",
+        "index": 1,
+        "set": 8
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - MUA + Costume Design - LSOH NSU %232.JPG",
+        "alt": "Image - MUA + Costume Design - LSOH NSU",
+        "text": "With the overarching theme of a Black and White <i>Tim Burton</i> inspired tone for the production, Lesly worked towards ensuring that each character's attire and makeup fit their character and the adjoining concept.",
+        "caption": "Designing Little Shop of Horrors",
+        "index": 2,
+        "set": 8
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - MUA + Costume Design - LSOH NSU %233.jpg",
+        "alt": "Image - MUA + Costume Design - LSOH NSU",
+        "text": "With the overarching theme of a Black and White <i>Tim Burton</i> inspired tone for the production, Lesly worked towards ensuring that each character's attire and makeup fit their character and the adjoining concept.",
+        "caption": "Designing Little Shop of Horrors",
+        "index": 3,
+        "set": 8
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - MUA Design - NSU %231.jpg",
+        "alt": "Image - MUA Design - NSU",
+        "text": "Lesly worked a Crime Scene Investigation Workshop held by the School of Forensic Science at Nova Southeastern University. Here, Lesly was tasked with creating realistic bruises in various states of healing. Additionally, with extra time allotted Lesly also displayed FX Horror Makeup techniques including gunshot wounds and large gashes. ",
+        "caption": "Crime Scene Investigation Demo",
+        "index": 1,
+        "set": 9
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - MUA Design - NSU %232.JPG",
+        "alt": "Image - MUA Design - NSU",
+        "text": "Display(s) of FX Horror Makeup Application",
+        "caption": "Lesly is skilled in creating FX Horror Makeup in a variety of ways. As displayed here, she favors the morbid and macabre and excels in making it as horrifying as possible.",
+        "index": 2,
+        "set": 9
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - MUA Design - NSU %233.jpg",
+        "alt": "Image - MUA Design - NSU",
+        "text": "Display(s) of FX Horror Makeup Application",
+        "caption": "Lesly is skilled in creating FX Horror Makeup in a variety of ways. As displayed here, she favors the morbid and macabre and excels in making it as horrifying as possible.",
+        "index": 3,
+        "set": 9
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - MUA Design - NSU %234.jpg",
+        "alt": "Image - MUA Design - NSU",
+        "text": "Display(s) of FX Horror Makeup Application",
+        "caption": "Lesly is skilled in creating FX Horror Makeup in a variety of ways. As displayed here, she favors the morbid and macabre and excels in making it as horrifying as possible.",
+        "index": 4,
+        "set": 9
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - MUA Design - President's MUA %231.jpg",
+        "alt": "Image - MUA Design - President's MUA",
+        "text": "During her time as Nova Southeastern University, Lesly has the prestige honor of being President George L. Hanbury's Personal Makeup Artist providing a natural finish for media shoots, and professional photos. The photos displayed are an example of Lesly's application work during her time alongside Hanbury and his administration.",
+        "caption": "The President's Personal Makeup Artist",
+        "index": 1,
+        "set": 10
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - MUA Design - President's MUA %232.webp",
+        "alt": "Image - MUA Design - President's MUA",
+        "text": "During her time as Nova Southeastern University, Lesly has the prestige honor of being President George L. Hanbury's Personal Makeup Artist providing a natural finish for media shoots, and professional photos. The photos displayed are an example of Lesly's application work during her time alongside Hanbury and his administration.",
+        "caption": "The President's Personal Makeup Artist",
+        "index": 2,
+        "set": 10
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Stage Management - Miscast %231.jpg",
+        "alt": "Image - Stage Management - Miscast",
+        "text": "In 2018, Lesly was awarded Technician of The Year by the Nova Southeastern University School of Arts and Design for her work as Assistant Stage Manager in the school's performance of <em>Miscast</em>.  ",
+        "caption": "Technician of the Year- Assistant Stage Manager",
+        "index": 1,
+        "set": 11
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - Stage Management - Miscast %232.JPG",
+        "alt": "Image - Stage Management - Miscast",
+        "text": "In 2018, Lesly was awarded Technician of The Year by the Nova Southeastern University School of Arts and Design for her work as Assistant Stage Manager in the school's performance of <em>Miscast</em>.  ",
+        "caption": "Technician of the Year- Assistant Stage Manager",
+        "index": 2,
+        "set": 11
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - This is Improv! %231.jpg",
+        "alt": "Image - This is Improv!",
+        "text": "During their primary performance year, Lesly worked for This is Improv! Performing live alongside its creators Angelica and Alexandra Zadak.",
+        "caption": "Improvisation with This is Improv!",
+        "index": 1,
+        "set": 12
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - This is Improv! %232.jpg",
+        "alt": "Image - This is Improv!",
+        "text": "During their primary performance year, Lesly worked for This is Improv! Performing live alongside its creators Angelica and Alexandra Zadak.",
+        "caption": "Improvisation with This is Improv!",
+        "index": 2,
+        "set": 12
+      }, 
+      {
+        "url":
+          "../assets/carousel-images/Image - This is Improv! %233.jpg",
+        "alt": "Image - This is Improv!",
+        "text": "During their primary performance year, Lesly worked for This is Improv! Performing live alongside its creators Angelica and Alexandra Zadak.",
+        "caption": "Improvisation with This is Improv!",
+        "index": 3,
+        "set": 12
+      }
+  ],
+  "arts-education": [
+    {
+      "url":
+        "../assets/carousel-images/Image - Directing 101 Dalmatians %231.jpg",
+      "alt": "Image - Directing 101 Dalmatians",
+      "text": "In addition to working at Nova Southeastern University, Lesly additionally works alongside The Nova Southeastern University U-School's Lower School to assist in working on shows as well as towards directing their musicals. In 2023, Lesly directed 101 Dalmatian's Kids! working with a team of nearly 100 individuals. The Production was a huge success receiving many favorable reviews and much love from the families and staff.",
+      "caption": "Directing 101 Dalmations Kids!",
       "index": 1,
       "set": 1
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Hosting - Black Box Awards - %232.JPG",
-        "alt": "Image - Hosting - Black Box Awards",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 2,
-        "set": 1
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Supercon %231.jpg",
-        "alt": "Image - Supercon",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 1,
-        "set": 2
-      },
-      {
-        "url":
-          "../assets/carousel-images/Image - Supercon %232.PNG",
-        "alt": "Image - Supercon",
-        "text": "TEXT HERE",
-        "caption": "CAPTION HERE",
-        "index": 2,
-        "set": 2
-      }
-    ]
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Directing 101 Dalmatians %232.jpg",
+      "alt": "Image - Directing 101 Dalmatians",
+      "text": "In addition to working at Nova Southeastern University, Lesly additionally works alongside The Nova Southeastern University U-School's Lower School to assist in working on shows as well as towards directing their musicals. In 2023, Lesly directed 101 Dalmatian's Kids! working with a team of nearly 100 individuals. The Production was a huge success receiving many favorable reviews and much love from the families and staff.",
+      "caption": "Directing 101 Dalmations Kids!",
+      "index": 2,
+      "set": 1
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Directing 101 Dalmatians %233.jpg",
+      "alt": "Image - Directing 101 Dalmatians",
+      "text": "In addition to working at Nova Southeastern University, Lesly additionally works alongside The Nova Southeastern University U-School's Lower School to assist in working on shows as well as towards directing their musicals. In 2023, Lesly directed 101 Dalmatian's Kids! working with a team of nearly 100 individuals. The Production was a huge success receiving many favorable reviews and much love from the families and staff.",
+      "caption": "Directing 101 Dalmations Kids!",
+      "index": 3,
+      "set": 1
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Directing 101 Dalmatians %234.jpg",
+      "alt": "Image - Directing 101 Dalmatians",
+      "text": "In addition to working at Nova Southeastern University, Lesly additionally works alongside The Nova Southeastern University U-School's Lower School to assist in working on shows as well as towards directing their musicals. In 2023, Lesly directed 101 Dalmatian's Kids! working with a team of nearly 100 individuals. The Production was a huge success receiving many favorable reviews and much love from the families and staff.",
+      "caption": "Directing 101 Dalmations Kids!",
+      "index": 4,
+      "set": 1
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Directing 101 Dalmatians %235.JPG",
+      "alt": "Image - Directing 101 Dalmatians",
+      "text": "In addition to working at Nova Southeastern University, Lesly additionally works alongside The Nova Southeastern University U-School's Lower School to assist in working on shows as well as towards directing their musicals. In 2023, Lesly directed 101 Dalmatian's Kids! working with a team of nearly 100 individuals. The Production was a huge success receiving many favorable reviews and much love from the families and staff.",
+      "caption": "Directing 101 Dalmations Kids!",
+      "index": 5,
+      "set": 1
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Directing 101 Dalmatians %236.jpg",
+      "alt": "Image - Directing 101 Dalmatians",
+      "text": "In addition to working at Nova Southeastern University, Lesly additionally works alongside The Nova Southeastern University U-School's Lower School to assist in working on shows as well as towards directing their musicals. In 2023, Lesly directed 101 Dalmatian's Kids! working with a team of nearly 100 individuals. The Production was a huge success receiving many favorable reviews and much love from the families and staff.",
+      "caption": "Directing 101 Dalmations Kids!",
+      "index": 6,
+      "set": 1
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - BBHarts Teaching %231.jpg",
+      "alt": "Image - BBHarts Teaching",
+      "text": "Lesly worked for BBHart's from 2019 to 2020, establishing the company's Theatre Program as their lead Theatre Teacher. She worked with a variety of students ages 8-15 to learn basic Fine Arts Etymology, as well as Acting Techniques, Dialect, and much more. Additionally, Lesly assisted in writing the script and text for the company's Winter New York-themed show as well as Directing scenes, applying make-up, building sets and set pieces, and overviewing the selection of show tunes used.  ",
+      "caption": "Leading The Way for Theatre at BBHarts",
+      "index": 1,
+      "set": 2
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - BBHarts Teaching %232.jpg",
+      "alt": "Image - BBHarts Teaching",
+      "text": "Lesly worked for BBHart's from 2019 to 2020, establishing the company's Theatre Program as their lead Theatre Teacher. She worked with a variety of students ages 8-15 to learn basic Fine Arts Etymology, as well as Acting Techniques, Dialect, and much more. Additionally, Lesly assisted in writing the script and text for the company's Winter New York-themed show as well as Directing scenes, applying make-up, building sets and set pieces, and overviewing the selection of show tunes used.  ",
+      "caption": "Leading The Way for Theatre at BBHarts",
+      "index": 2,
+      "set": 2
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - NSU Professor %231.jpg",
+      "alt": "Image - NSU Professor",
+      "text": "Lesly was given the immense honor of collaborating with Paramount and Sony Pictures to work in creating make-up looks inspired by their movie <em>Dungeons & Dragons: Honor Amongst Thieves</em>. Costume and Make-up Design students used provided materials to make looks, as well as won merch and free tickets for their efforts.",
+      "caption": "Collaboration with Paramount and Sony Pictures for <em>Dungeons & Dragons: Honor Amongst Thieves</em>",
+      "index": 1,
+      "set": 3
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - NSU Professor %232.jpg",
+      "alt": "Image - NSU Professor",
+      "text": "Lesly was given the immense honor of collaborating with Paramount and Sony Pictures to work in creating make-up looks inspired by their movie <em>Dungeons & Dragons: Honor Amongst Thieves</em>. Costume and Make-up Design students used provided materials to make looks, as well as won merch and free tickets for their efforts.",
+      "caption": "Collaboration with Paramount and Sony Pictures for <em>Dungeons & Dragons: Honor Amongst Thieves</em>",
+      "index": 2,
+      "set": 3
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - NSU Professor %233.jpg",
+      "alt": "Image - NSU Professor",
+      "text": "Lesly was given the immense honor of collaborating with Paramount and Sony Pictures to work in creating make-up looks inspired by their movie <em>Dungeons & Dragons: Honor Amongst Thieves</em>. Costume and Make-up Design students used provided materials to make looks, as well as won merch and free tickets for their efforts.",
+      "caption": "Collaboration with Paramount and Sony Pictures for <em>Dungeons & Dragons: Honor Amongst Thieves</em>",
+      "index": 3,
+      "set": 3
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Teaching Assistant at MLA %231.jpg",
+      "alt": "Image - Teaching Assistant at MLA",
+      "text": "In 2019, Lesly assisted in mentoring students at Mater Lakes Academy through their production of Little Shop of Horrors. There, she instructed students on ways to build the puppetry, establish its design, provided props and costume pieces, guide them through the production run, and provided live assistance at each of the show's sold-out performances.",
+      "caption": "Teaching Assistant and Internship at Mater Lakes Academy",
+      "index": 1,
+      "set": 4
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Teaching Assistant at MLA %232.jpg",
+      "alt": "Image - Teaching Assistant at MLA",
+      "text": "In 2019, Lesly assisted in mentoring students at Mater Lakes Academy through their production of Little Shop of Horrors. There, she instructed students on ways to build the puppetry, establish its design, provided props and costume pieces, guide them through the production run, and provided live assistance at each of the show's sold-out performances.",
+      "caption": "Teaching Assistant and Internship at Mater Lakes Academy",
+      "index": 2,
+      "set": 4
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Teaching Assistant at MLA %233.jpg",
+      "alt": "Image - Teaching Assistant at MLA",
+      "text": "In 2019, Lesly assisted in mentoring students at Mater Lakes Academy through their production of Little Shop of Horrors. There, she instructed students on ways to build the puppetry, establish its design, provided props and costume pieces, guide them through the production run, and provided live assistance at each of the show's sold-out performances.",
+      "caption": "Teaching Assistant and Internship at Mater Lakes Academy",
+      "index": 3,
+      "set": 4
+    }      
+  ],
+  "events": [
+    {
+    "url":
+      "../assets/carousel-images/Image - Hosting - Black Box Awards - %231.JPG",
+    "alt": "Image - Hosting - Black Box Awards",
+    "text": "In 2019, Lesly co-hosted Nova Southeastern University's Arts and Design Departments' yearly Black Box Awards. Additionally, she was apart of the team that won Ensemble of The Year for the department's production of <em>She Kills Monsters</em>. ",
+    "caption": "Hosting Nova Southeastern University's Black Box Awards",
+    "index": 1,
+    "set": 1
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Hosting - Black Box Awards - %232.JPG",
+      "alt": "Image - Hosting - Black Box Awards",
+      "text": "In 2019, Lesly co-hosted Nova Southeastern University's Arts and Design Departments' yearly Black Box Awards. Additionally, she was apart of the team that won Ensemble of The Year for the department's production of <em>She Kills Monsters</em>. ",
+    "caption": "Hosting Nova Southeastern University's Black Box Awards",
+      "index": 2,
+      "set": 1
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Supercon %231.jpg",
+      "alt": "Image - Supercon",
+      "text": "For five years, Lesly worked for all of the Florida Supercon Comic Conventions in a variety of roles. However, for the majority of her time with the company she worked in Registration welcoming thousands of guests alike on the show floor.",
+      "caption": "Registration with ReedPop!",
+      "index": 1,
+      "set": 2
+    },
+    {
+      "url":
+        "../assets/carousel-images/Image - Supercon %232.PNG",
+      "alt": "Image - Supercon",
+      "text": "For five years, Lesly worked for all of the Florida Supercon Comic Conventions in a variety of roles. However, for the majority of her time with the company she worked in Registration welcoming thousands of guests alike on the show floor.",
+      "caption": "Registration with ReedPop!",
+      "index": 2,
+      "set": 2
+    }
+  ]
 }
