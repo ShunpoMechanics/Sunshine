@@ -20,32 +20,58 @@
     color: white;
 }
 
-
 .selected {
     background-color: #DDDD00;
 }
 
 .extra-bottom {
-    margin-bottom: 48px;
+    margin-bottom: 20px;
     width: 470px;
-}
-
-.row {    
-    text-align: center;
 }
 
 .btn-blue {
     background-color: #2f4858;
 }
 
-@media only screen and (max-width: 600px)
+.row {    
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 401px)
 {
     button {        
         margin-bottom: 8px;
     }
+   
+.extra-bottom {
+    margin-bottom: 20px;
+    width: 100vw;
+}
     
     .row {
         margin-left: 42px;
+    }
+
+    .col-md-4 {
+        width: unset !important; 
+    }
+}
+
+
+@media only screen and (max-width: 400px)
+{
+    button {        
+        margin-bottom: 8px;
+    }
+   
+    .extra-bottom {
+        margin-bottom: 26px;
+        width: 100vw;
+        padding-left: 11px;
+    }
+        
+    .row {
     }
 
     .col-md-4 {

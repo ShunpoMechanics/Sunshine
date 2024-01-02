@@ -1,16 +1,21 @@
-<div class="container extra-bottom">
-    <div class="row">
-    <div class="col-md-4">
-            <a routerLink="/theatre" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-success"> Fine Arts</button></a>
-    </div>
-    <div class="col-md-4">
-            <a routerLink="/projects" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-blue"> Arts Education</button></a>
-    </div>
-    <div class="col-md-4">
-    <a routerLink="/events" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-success"> Events</button>    </a>
-    </div>
-</div>
-</div>
+<div *ngIf="!isMobile" class="container extra-bottom">
+        <div class="row">
+            <div class="col-md-4">
+                <a routerLink="/theatre" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-success"> Fine Arts</button></a>
+        </div>
+        <div class="col-md-4">
+                <a routerLink="/projects" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-blue"> Arts Education</button></a>
+        </div>
+        <div class="col-md-4">
+            <a routerLink="/events" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-success"> Events</button>    </a>
+        </div>
+        </div>
+        
     
-
+    </div>
+    <div *ngIf="isMobile" class="container extra-bottom">
+                <a style="width: 124px;" routerLink="/theatre" ariaCurrentWhenActive="page"><button style="margin: 0 8px 0 8px;" class="btn btn-success"> Fine Arts</button></a>
+                <a style="width: 124px;" routerLink="/projects" ariaCurrentWhenActive="page"><button style="margin: 0 8px 0 8px;" class="btn btn-blue"> Arts Education</button></a>
+            <a style="width: 124px;" routerLink="/events" ariaCurrentWhenActive="page"><button style="margin: 0 8px 0 8px;" class="btn btn-success"> Events</button>    </a>    
+    </div>
 <app-carousel class="carousel" id="fine-arts" [slides]="slides" [height]="400"></app-carousel>

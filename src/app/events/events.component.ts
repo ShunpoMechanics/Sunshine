@@ -13,6 +13,7 @@ export class EventsComponent implements OnInit {
 
   public slides: Slide[] = manifest['events'];
   
+  isMobile: Boolean = false;
 
   constructor() { }
 
@@ -20,12 +21,17 @@ export class EventsComponent implements OnInit {
     var x = document.getElementById("myLinks");
     x!.style.display = "none";
     this.ariaTab();
+    this.isMobile = this.checkIsMobile();
   }
   
   ngOnDestroy() : void {
     var ele = document.getElementById('fine-arts-tab');
     ele?.classList.remove('selected');
   }
+
+  checkIsMobile() {
+    return screen.width < 1000;
+  };
 
   ariaTab() {
     var ele = document.getElementById('fine-arts-tab');

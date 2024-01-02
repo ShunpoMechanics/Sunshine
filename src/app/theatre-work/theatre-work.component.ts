@@ -14,10 +14,12 @@ export class TheatreWorkComponent implements OnInit {
   public slides: Slide[] = manifest['fine-arts'];
 
   constructor() { }
+  isMobile: Boolean = false;
 
   ngOnInit(): void {
     var x = document.getElementById("myLinks");
-    x!.style.display = "none";
+    x!.style.display = "none";   
+    this.isMobile = this.checkIsMobile();
   }
 
   ngOnDestroy() : void {
@@ -30,4 +32,7 @@ export class TheatreWorkComponent implements OnInit {
     // ele?.classList.add('selected');
   }
 
+  checkIsMobile() {
+    return screen.width < 1000;
+  };
 }
