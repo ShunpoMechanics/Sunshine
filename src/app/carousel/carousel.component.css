@@ -89,10 +89,20 @@ i {
         width: 400px;
         border: 0px;
     }
+    .carousel-tracker {
+        padding-left: 40px;
+        width: 86px;
+        display: block;
+        margin-left: 0;
+    }
+    
+    .button-box {
+        margin-left: 177px;
+    }
 
     .card-img-top {
         width: 383px;
-        margin-left: 42px;
+        margin-left: 44px;
         margin-top: 11px;
         height: 400px;
     }
