@@ -1,16 +1,8 @@
-<div *ngIf="!isMobile" class="container extra-bottom">
+<div class="container extra-bottom">
     <div class="tri-state-toggle">
         <input class="btn btn-blue" type="button" value="Fine Arts" (click)="toggleContent('fine-arts')" name="toggle" id="fine-arts" />
         <input class="btn btn-success" type="button" value="Arts Education" (click)="toggleContent('arts-education')" name="toggle" id="arts-education" />
         <input class="btn btn-success" type="button" value="Events" (click)="toggleContent('events')" name="toggle" id="events" />
     </div>
-    
-</div>
-<div *ngIf="isMobile" class="container extra-bottom">
-    <div class="tri-state-toggle">
-        <input class="btn btn-blue" type="button" value="Fine Arts" (click)="toggleContent('fine-arts')" name="toggle" id="fine-arts" />
-        <input class="btn btn-success" type="button" value="Arts Education" (click)="toggleContent('arts-education')" name="toggle" id="arts-education" />
-        <input class="btn btn-success" type="button" value="Events" (click)="toggleContent('events')" name="toggle" id="events" />
-    </div> 
 </div>
 <app-carousel class="carousel" id="fine-arts" [slides]="slides" [height]="400"></app-carousel>

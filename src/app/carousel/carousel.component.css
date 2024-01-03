@@ -86,7 +86,8 @@ i {
 @media only screen and (max-width: 600px) and (min-width: 401px) {
     .card {
         margin: 0;
-        width: 400px;
+        width: 405px;
+        margin-left: 45px;
         border: 0px;
     }
     .carousel-tracker {
@@ -102,18 +103,12 @@ i {
 
     .card-img-top {
         width: 383px;
-        margin-left: 44px;
         margin-top: 11px;
         height: 400px;
     }
 
-    .card-title {        
-        margin-left: 29px;
-    }
-
-    .card-text:last-child {
-        
-        margin-left: 29px;
+    .card-body {
+        padding-left: 0;
     }
 
     .col-md-1 {
@@ -124,8 +119,8 @@ i {
 @media only screen and (max-width: 400px) {
     .card {
         margin: 0;
-        margin-left: 20px;
-        width: 95vw;
+        margin-left: 73px;
+        width: 345px;
         border: 0px;
     }
     .carousel-tracker {
@@ -137,14 +132,17 @@ i {
     
 
     .button-box {
-        padding-left: 131px;
+        padding-left: 39%;
         width: 100vw;
         margin-left: 0;
     }
 
+    .card-body {
+        padding-left: 0;
+    }
+
     .card-img-top {
         width: 328px;
-        margin-left: auto;
         margin-top: 11px;
         height: 300px;
     }
