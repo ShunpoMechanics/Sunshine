@@ -1,21 +1,16 @@
 <div *ngIf="!isMobile" class="container extra-bottom">
-    <div class="row">
-        <div class="col-md-4">
-            <a routerLink="/theatre" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-blue"> Fine Arts</button></a>
-    </div>
-    <div class="col-md-4">
-            <a routerLink="/projects" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-success"> Arts Education</button></a>
-    </div>
-    <div class="col-md-4">
-        <a routerLink="/events" routerLinkActive="selected" ariaCurrentWhenActive="page"><button class="btn btn-success"> Events</button>    </a>
-    </div>
+    <div class="tri-state-toggle">
+        <input class="btn btn-blue" type="button" value="Fine Arts" (click)="toggleContent('fine-arts')" name="toggle" id="fine-arts" />
+        <input class="btn btn-success" type="button" value="Arts Education" (click)="toggleContent('arts-education')" name="toggle" id="arts-education" />
+        <input class="btn btn-success" type="button" value="Events" (click)="toggleContent('events')" name="toggle" id="events" />
     </div>
     
-
 </div>
 <div *ngIf="isMobile" class="container extra-bottom">
-            <a style="width: 124px;" routerLink="/theatre" ariaCurrentWhenActive="page"><button style="margin: 0 8px 0 8px;" class="btn btn-blue"> Fine Arts</button></a>
-            <a style="width: 124px;" routerLink="/projects" ariaCurrentWhenActive="page"><button style="margin: 0 8px 0 8px;" class="btn btn-success"> Arts Education</button></a>
-        <a style="width: 124px;" routerLink="/events" ariaCurrentWhenActive="page"><button style="margin: 0 8px 0 8px;" class="btn btn-success"> Events</button>    </a>    
+    <div class="tri-state-toggle">
+        <input class="btn btn-blue" type="button" value="Fine Arts" (click)="toggleContent('fine-arts')" name="toggle" id="fine-arts" />
+        <input class="btn btn-success" type="button" value="Arts Education" (click)="toggleContent('arts-education')" name="toggle" id="arts-education" />
+        <input class="btn btn-success" type="button" value="Events" (click)="toggleContent('events')" name="toggle" id="events" />
+    </div> 
 </div>
 <app-carousel class="carousel" id="fine-arts" [slides]="slides" [height]="400"></app-carousel>

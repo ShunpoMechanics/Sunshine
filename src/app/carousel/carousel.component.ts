@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit } from '@angular/core';
 import { Slide } from './slide';
 
 @Component({
@@ -7,7 +7,7 @@ import { Slide } from './slide';
   styleUrls: ['./carousel.component.css'],
   template: ``
 })
-export class CarouselComponent implements OnInit {
+export class CarouselComponent implements OnInit, OnChanges {
 @Input() slides!: Slide[];
 @Input() height!: number;
 
@@ -22,8 +22,12 @@ export class CarouselComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    var x = document.getElementById("myLinks");
-    x!.style.display = "none";
+    this.activeSlide = this.slides[0];
+    this.firstSlideIndexes = this.slides.filter(s => s.index == 1).map(o => this.slides.indexOf(o));
+    this.setTracker();
+  }
+
+  ngOnChanges(): void {
     this.activeSlide = this.slides[0];
     this.firstSlideIndexes = this.slides.filter(s => s.index == 1).map(o => this.slides.indexOf(o));
     this.setTracker();
@@ -110,6 +114,8 @@ export class CarouselComponent implements OnInit {
   }
 
   public injectHtml(obj: any, text: string) {
+    console.log("Running");
+    console.log("Injecting text " + obj);
     var x = document.getElementById(obj);
     x!.innerHTML = text;
   }
