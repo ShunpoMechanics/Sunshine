@@ -114,6 +114,8 @@ export class CarouselComponent implements OnInit, OnChanges {
   }
 
   public injectHtml(obj: any, text: string) {
+    console.log("Running");
+    console.log("Injecting text " + obj);
     var x = document.getElementById(obj);
     x!.innerHTML = text;
   }
