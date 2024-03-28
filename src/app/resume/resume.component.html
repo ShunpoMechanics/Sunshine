@@ -4,8 +4,8 @@
         <a target="_blank" href="../assets/pdfs/Resume - 2023.pdf">Resume 2023</a>
         <hr>
         <a target="_blank" href="../assets/pdfs/CV - 2023.pdf">CV 2023</a>
-        <hr>
-        <object type="application/pdf" data="../../assets/pdfs/Lesly's Published Thesis.pdf" width="900" height="95%">
+        <hr *ngIf="!isMobile">
+        <object *ngIf="!isMobile" type="application/pdf" data="../../assets/pdfs/Resume - 2023.pdf" width="900" height="95%">
             <div>No PDF Viewer detected. Please click one of the urls above to download the PDF to your device.</div>
         </object>
 </div>

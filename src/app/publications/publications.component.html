@@ -2,8 +2,8 @@
     <h2>Publications</h2>
     <!-- <embed src= "../assets/PegasusKnight.pdf#view=Fit&toolbar=0&navpanes=0&scrollbar=0" width= "900" height= "1100"> -->
         <a target="_blank" href="../assets/pdfs/Lesly's Published Thesis.pdf">Thesis</a>
-        <hr>
-        <object type="application/pdf" data="../../assets/pdfs/Lesly's Published Thesis.pdf" width="900" height="90%">
+        <hr *ngIf="!isMobile">
+        <object *ngIf="!isMobile" type="application/pdf" data="../../assets/pdfs/Lesly's Published Thesis.pdf" width="900" height="90%">
             <div>No PDF Viewer detected. Please click the url above to download the PDF to your device.</div>
         </object>
 </div>

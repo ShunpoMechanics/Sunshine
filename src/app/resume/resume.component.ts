@@ -9,12 +9,17 @@ export class ResumeComponent implements OnInit {
 
   pdfSrc = "../assets/PegasusKnight.pdf";
   constructor() { }
+  isMobile: boolean = false;
 
   ngOnInit(): void {
     var x = document.getElementById("myLinks");
     x!.style.display = "none";
+    this.isMobile = this.checkIsMobile();
   }
 
+  checkIsMobile() {
+    return screen.width < 1000;
+  };
   title: string = 'ng2-pdf-viewer';
 
   isLoaded: boolean = false;
