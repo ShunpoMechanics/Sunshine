@@ -8,4 +8,8 @@
         <object *ngIf="!isMobile" type="application/pdf" data="../../assets/pdfs/Resume - 2023.pdf" width="900" height="95%">
             <div>No PDF Viewer detected. Please click one of the urls above to download the PDF to your device.</div>
         </object>
+        <hr *ngIf="isMobile">
+        <object *ngIf="isMobile" type="application/pdf" data="../../assets/pdfs/Resume - 2023.pdf" width="300" height="95%">
+            <div>No PDF Viewer detected. Please click one of the urls above to download the PDF to your device.</div>
+        </object>
 </div>
