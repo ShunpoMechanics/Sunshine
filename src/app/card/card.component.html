@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="card">
+    <div class="card-top">
+        <img class="card-img-top" [src]="card.url" [alt]="card.alt">
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{card.caption}}</h5>
+        <p class="card-text" [innerHTML]="card.text"></p>
+    </div>
+    </div>
+</div>

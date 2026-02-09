@@ -19,6 +19,7 @@ import { ArtistBioComponent } from './artist-bio/artist-bio.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { HttpClientModule } from '@angular/common/http';
     ResumeComponent,
     EventsComponent,
     ArtistBioComponent,
-    PublicationsComponent
+    PublicationsComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

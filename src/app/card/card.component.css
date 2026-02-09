@@ -1,0 +1,12 @@
+.card-top {
+    height: 367px;
+    display: flex;
+    align-items: center; /* Centers vertically */
+    /* Optional: Add a height and horizontal centering for a complete center */
+    justify-content: center; 
+    padding: 8px;
+}
+
+img {
+    max-height: 100%;
+}
