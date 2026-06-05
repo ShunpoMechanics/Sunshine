@@ -7,6 +7,10 @@ img {
     font-family: "Nourd" !important;
 }
 
+.italic {
+    font-style: italic;
+}
+
 @media only screen and (max-width: 600px) {
     img {
         width: 250px;
